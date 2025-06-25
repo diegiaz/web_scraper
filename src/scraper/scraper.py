@@ -8,6 +8,8 @@ from src.constants.config import (
     TEST_MODE, TEST_LIMIT, USERNAME, PASSWORD
 )
 
+#Remember this is a template. You will have to modify the selectors and logic based on the actual HTML structure of the target website.
+
 class WebScraper:
     def __init__(self):
         self.browser = init_browser()
