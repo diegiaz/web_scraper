@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+
+# Environment
+config.env
+
+# Outputs
+src/outputs/
+output.csv
+
+# VSCode/Cursor
+.vscode/
+.cursor/
+
+# Documentation
+mds/
