@@ -3,15 +3,11 @@ __pycache__/
 *.pyc
 
 # Environment
-config.env
 
 # Outputs
-src/outputs/
-output.csv
+src/outputs/*
+!src/outputs/.gitkeep output.csv
 
-# VSCode/Cursor
-.vscode/
-.cursor/
-
-# Documentation
-mds/
+# Support_mds
+mds/*
+!mds/.gitkeep template_scrapper_prompt_ia.md
