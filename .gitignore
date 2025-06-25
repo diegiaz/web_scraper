@@ -6,7 +6,8 @@ __pycache__/
 
 # Outputs
 src/outputs/*
-!src/outputs/.gitkeep output.csv
+!src/outputs/.gitkeep
+output.csv
 
 # Support_mds
 mds/*
